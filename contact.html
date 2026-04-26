@@ -20,15 +20,15 @@
 <main>
     <h2>Send me a message</h2>
 
-    <form>
+    <form onsubmit="validateForm(event)">
         <p>
             <label>Name:</label><br>
-            <input type="text" name="name">
+            <input type="text" id="name" name="name">
         </p>
 
         <p>
             <label>Email:</label><br>
-            <input type="email" name="email">
+            <input type="email" id="email" name="email">
         </p>
 
         <p>
@@ -54,6 +54,8 @@
 <footer>
     <p>2026 - CSC457 Homework</p>
 </footer>
+
+<script src="scripts.js"></script>
 
 </body>
 </html>
